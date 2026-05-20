@@ -1,4 +1,5 @@
 print("Players in this draft: LeBron James, Stephen Curry, Luka Dončić and LaMelo")
+print("Please enter names in lowercase")
 name=input("Enter your favorite NBA player: ").strip() .lower()
 players=["lebron james", "lebron", "stephen curry", "curry", "luka dončić", "luka", "lamelo"] 
 #Only lowercase letters allowed. 
