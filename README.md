@@ -1,6 +1,6 @@
 # hoopster-track
 
-This is a project where the application tracks the live scores and statistics of your favorite basketball player in the NBA.
+This is a project where the application tracks the live scores, statistics and displays the achievements of your favorite basketball player in the NBA.
 The players of whom you can view the data currently are : Stephen Curry, LeBron James, LaMelo and Luka Dončić. 
 
 ## The Procedure
