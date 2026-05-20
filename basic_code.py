@@ -5,17 +5,17 @@ name = input("Enter your favorite NBA player: ").strip().lower()
 
 players = ["lebron james", "lebron", "stephen curry", "curry", "luka dončić", "luka", "lamelo"]
 
-if name in players:
-    print("Player found.")
+if name in players:   # Start of main "if/else" block.
+    print("Player found.")      # Checks and validates player's name in list.
     while True:
         print("Option 1 - Match scores")
         print("Option 2 - Statistics")
         print("Option 3 - Achievements")
-        print("Option 4 - Exit")
+        print("Option 4 - Exit")          # 4 options with what they do.
 
         try:
-            opt = int(input("Enter your choice: "))
-        except ValueError:
+            opt = int(input("Enter your choice: "))  # Added try/except to tackle any user input errors. 
+        except ValueError:                               # ValueError:Occurs when operation recevies arh=guement with correct datatype but wrong value.
             print("Please enter a valid number.")
             continue
 
@@ -29,6 +29,8 @@ if name in players:
             print("Exiting the application.")
             break
         else:
-            print("Invalid input")
-else:
-    print("Player not found. Please refer to the players list above.")
+            print("Invalid input")  # Options selection and description of what the particular section does. 
+else:    
+    print("Player not found. Please refer to the players list above.")    # End of main "if/else block"  
+# Response if name is not present. 
+                        
