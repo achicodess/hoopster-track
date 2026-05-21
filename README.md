@@ -14,6 +14,12 @@ For now, I will write basic Python code to take input, check from list and retur
 * list of players and their nicknames
 * .strip() and .lower() added
 * if, else statement to verify player's presence in the list
-
+  
+Next, i have to figure out a way to get the choosen NBA player's database that syncs with real-time and present status of the palyer. I have to also construct a kind of database. For this, 
+* I will use a local file
+* Make Python to read the file
+* Extract relavent information
+* Display the information
+* OR I will construct an SQL Database that the program can read, extract and display information from. 
 
 
