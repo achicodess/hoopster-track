@@ -20,6 +20,9 @@ Next, i have to figure out a way to get the choosen NBA player's database that s
 * Make Python to read the file
 * Extract relavent information
 * Display the information
-* OR I will construct an SQL Database that the program can read, extract and display information from. 
+* OR I will construct an SQL Database that the program can read, extract and display information from.
+
+Or perhaps I can use an API that does this task for me.
+
 
 
