@@ -1,4 +1,8 @@
+#input block
 opt=int(input("Enter option: "))
+print("Database only refers to Stephen Curry currently.")
+
+#if loop
 if opt == 1:
     print("This section gives you the baskets scored by"),#(name, "in recent matches.")
     obj=open("database_file_curry.py","r")
@@ -17,6 +21,30 @@ elif opt==3:
     obj3.read()
     print("Curry's Glorious Achievements: ")
     print(obj3)
+elif opt==4:
+    print("Exiting the application")
+    quit()
+
+# for loop
+# Repeating the player's list and input prompting
+# This is a trail code implementing an additional for loop. 
+players=["lebron james", "lebron", "stephen curry", "curry", "luka dončić", "luka", "lamelo"]
+name=input("Enter player's name: ")
+for name in players:
+    if name=="stephen curry":
+        print("Player choosen is",name)
+    elif name=="lebron james":
+        print("Player choosen is",name)
+    elif name=="luka dončić":
+        print("Player choosen is",name)
+    elif name=="lamelo":
+        print("Player choosen is", name)
+    else:
+        print("Invalid player name")
+else:
+    print("Player not found")
+
+
 
 
             
