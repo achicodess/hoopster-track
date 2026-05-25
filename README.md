@@ -24,5 +24,13 @@ Next, i have to figure out a way to get the choosen NBA player's database that s
 
 Or perhaps I can use an API that does this task for me.
 
+## I still have three thing pending:
+* Database creation + extraction (OR) API Methodology.
+* Figuring out the overall structure + mechanism 
+* Organising the code 
+                                    
+                                    
+                                    
+
 
 
