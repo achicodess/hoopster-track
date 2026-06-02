@@ -5,8 +5,20 @@ The players of whom you can view the data currently are : Stephen Curry, LeBron 
 
 ## The Procedure
 
-To build the application I will use Python as a primary language by applying the knowledge I have gained through Dr Charles Servance's PY4E Course. If it is a web interface, I will use my previous knowlegde of HTML and CSS. I will extract datasets from Kaggle and try to provide live info and stats on the player through Kaggle and other applications (yet to be discovered).
-For now, I will write basic Python code to take input, check from list and return Yes/No. Other basic building blocks of the program will also be written.
+I have used the concepts I have learnt through Dr Charles Sevrance's Python For Everybody course. The basic code has been written entirely in Python using simple concepts learnt through the timeline of the course. For live data fetching and it's display, I will be using nba_api library. 
+
+
+## nba_api library
+nba_api is a free library that solves the database and API confusion in the project. This library keeps track of the live scores of the player and is updated in real-time.
+
+# The Structure: 
+
+player_data.py is the data layer of the project. There are three functions that call the NBA Stats API:
+* get_recent_scores(player_id) → fetches last 5 games with PTS / REB / AST / W-L stats.
+* get_season_stats(player_id) → fetches PPG, RPG, APG, FG%, 3P%, FT% for the current season of choosen player.
+* get_achievements(player_id) → fetches full career awards list (MVPs, All-Stars, championships etc)
+The main.py — is rebuilt and it calls all those functions. Options 1–3 now actually print real data.
+Added Option 4 to switch player mid-session without restarting.
 
 ## What has been done
 
@@ -25,7 +37,6 @@ Next, i have to figure out a way to get the choosen NBA player's database that s
 Or perhaps I can use an API that does this task for me.
 
 ## I still have three thing pending:
-* Database creation + extraction (OR) API Methodology.
 * Figuring out the overall structure + mechanism 
 * Organising the code 
                                     
