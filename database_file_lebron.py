@@ -1,0 +1,1 @@
+Stephen Curry averaged 26.6 points, 4.7 assists, and 3.6 rebounds per game while shooting 46.8% from the field and 39.3% from three-point range during the 2025–26 NBA regular season.
