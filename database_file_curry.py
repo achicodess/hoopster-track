@@ -1,0 +1,2 @@
+The most recent match Stephen has played was on April 17, 2026. The match was between his team Golden State Warriors and Phoenix Suns
+He has scored 4 made baskets (including 3 three-pointers) out of 16 field-goal attempts, alongside 6 free throws, totaling 17 points

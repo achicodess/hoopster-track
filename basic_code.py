@@ -1,4 +1,3 @@
-# Portion 1
 print("Players in this draft: LeBron James, Stephen Curry, Luka Dončić and LaMelo")
 print("*ATTENTION*: Please enter lowercase letters only!!")
 
@@ -6,23 +5,20 @@ name = input("Enter your favorite NBA player: ").strip().lower()
 
 players = ["lebron james", "lebron", "stephen curry", "curry", "luka dončić", "luka", "lamelo"]
 
-# Portion 2
-if name in players:   # Start of main "if/else" block.
-    print("Player found.")      # Checks and validates player's name in list.
+if name in players:
+    print("Player found.")
     while True:
         print("Option 1 - Match scores")
         print("Option 2 - Statistics")
         print("Option 3 - Achievements")
-        print("Option 4 - Exit")          # 4 options with what they do.
+        print("Option 4 - Exit")
 
-# Portion 3
         try:
-            opt = int(input("Enter your choice: "))  # Added try/except to tackle any user input errors. 
-        except ValueError:                               # ValueError:Occurs when operation recevies arh=guement with correct datatype but wrong value.
+            opt = int(input("Enter your choice: "))
+        except ValueError:
             print("Please enter a valid number.")
             continue
-        
-# Portion 4
+
         if opt == 1:
             print("This section gives you the baskets scored by", name, "in recent matches.")
         elif opt == 2:
@@ -33,8 +29,7 @@ if name in players:   # Start of main "if/else" block.
             print("Exiting the application.")
             break
         else:
-            print("Invalid input")  # Options selection and description of what the particular section does. 
-else:    
-    print("Player not found. Please refer to the players list above.")    # End of main "if/else block"  
-# Response if name is not present. 
-                        
+            print("Invalid input")
+else:
+    print("Player not found. Please refer to the players list above.")
+
