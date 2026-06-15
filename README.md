@@ -1,6 +1,6 @@
 # hoopster-track
 
-This is a project that tracks the live statistics, scores and outputs player acheivements based on the player choosen. Players currently supported are: LeBron James, Stephen Curry, LaMelo and Luka Dončić. This project uses **nba_api** library for functioning. 
+This is a project that tracks the live statistics, scores and outputs player acheivements based on the player choosen. Players currently supported are: LeBron James, Stephen Curry, LaMelo and Luka Dončić. This project uses **nba_api** library for functioning. It utilizes basic Python commands, loops and itertions for initiation and provides a basic framework for the project. 
 
 ## The Structure
 
@@ -47,6 +47,12 @@ df = career.get_data_frames()[0]
 
 #Display the first few rows of the career statistics table
 print(df.head())
+
+CONGRATS!!-- with that you have sucessfully integrated my project into yours.
+
+This project is interated with an **MIT Liscense** making it truly open-source and usable for anyone and everyone. 
+
+
 
 
 
